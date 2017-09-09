@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../ch02/blog/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../ch02/ch02/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../ch02/ch02/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:96
+AppConfig	../ch02/blog/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+Author	../ch02/blog/models.py	/^class Author(models.Model):$/;"	kind:class	line:18
+BASE_DIR	../ch02/ch02/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BlogConfig	../ch02/blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
+Book	../ch02/blog/models.py	/^class Book(models.Model):$/;"	kind:class	line:27
+Book	../lesson01/models.py	/^class Book(models.Model):$/;"	kind:class	line:6
+Context	../ch02/blog/views.py	/^from django.template import Template, Context$/;"	kind:namespace	line:3
+DATABASES	../ch02/ch02/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../ch02/ch02/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Http404	../ch02/blog/views.py	/^from django.http import HttpResponse, Http404$/;"	kind:namespace	line:4
+HttpResponse	../ch02/blog/views.py	/^from django.http import HttpResponse, Http404$/;"	kind:namespace	line:4
+INSTALLED_APPS	../ch02/ch02/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../ch02/ch02/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:115
+MIDDLEWARE	../ch02/ch02/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Migration	../ch02/blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Publisher	../ch02/blog/models.py	/^class Publisher(models.Model):$/;"	kind:class	line:6
+ROOT_URLCONF	../ch02/ch02/settings.py	/^ROOT_URLCONF = 'ch02.urls'$/;"	kind:variable	line:53
+STATIC_URL	../ch02/ch02/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:130
+TEMPLATES	../ch02/ch02/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../ch02/ch02/settings.py	/^TIME_ZONE = 'Asia\/Shanghai'$/;"	kind:variable	line:118
+Template	../ch02/blog/views.py	/^from django.template import Template, Context$/;"	kind:namespace	line:3
+TestCase	../ch02/blog/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../ch02/ch02/settings.py	/^USE_I18N = True$/;"	kind:variable	line:120
+USE_L10N	../ch02/ch02/settings.py	/^USE_L10N = True$/;"	kind:variable	line:122
+USE_TZ	../ch02/ch02/settings.py	/^USE_TZ = True$/;"	kind:variable	line:124
+WSGI_APPLICATION	../ch02/ch02/settings.py	/^WSGI_APPLICATION = 'ch02.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../ch02/blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch02/blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch02/ch02/__init__.py	1;"	kind:file	line:1
+__unicode__	../ch02/blog/models.py	/^    def __unicode__(self):$/;"	kind:member	line:14
+__unicode__	../ch02/blog/models.py	/^    def __unicode__(self):$/;"	kind:member	line:23
+__unicode__	../ch02/blog/models.py	/^    def __unicode__(self):$/;"	kind:member	line:33
+address	../ch02/blog/models.py	/^    address = models.CharField(max_length=50)$/;"	kind:variable	line:8
+admin	../ch02/blog/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../ch02/ch02/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../ch02/blog/admin.py	1;"	kind:file	line:1
+application	../ch02/ch02/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../ch02/blog/apps.py	1;"	kind:file	line:1
+authors	../ch02/blog/models.py	/^    authors = models.ManyToManyField(Author)$/;"	kind:variable	line:29
+chapter01.py	../chapter01.py	1;"	kind:file	line:1
+city	../ch02/blog/models.py	/^    city = models.CharField(max_length=60)$/;"	kind:variable	line:9
+con	../chapter01.py	/^con = pymysql.connect(user='hxl', password='198668', database='my_db', charset="utf8")$/;"	kind:variable	line:20
+country	../ch02/blog/models.py	/^    country = models.CharField(max_length=50)$/;"	kind:variable	line:11
+current_time	../ch02/blog/views.py	/^def current_time(request):$/;"	kind:function	line:21
+cursor	../chapter01.py	/^cursor = con.cursor()$/;"	kind:variable	line:21
+customtemplate	../ch02/blog/views.py	/^def customtemplate(request):$/;"	kind:function	line:48
+datetime	../ch02/blog/views.py	/^import datetime$/;"	kind:namespace	line:6
+db	../ch02/blog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+deletion	../ch02/blog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+dependencies	../ch02/blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:13
+django	../ch02/blog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+django	../ch02/manage.py	/^            import django$/;"	kind:namespace	line:14
+email	../ch02/blog/models.py	/^    email = models.EmailField()$/;"	kind:variable	line:21
+execute_from_command_line	../ch02/manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+field	../ch02/blog/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='blog.Publisher'),$/;"	kind:variable	line:50
+fields	../ch02/blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:19
+fields	../ch02/blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:28
+fields	../ch02/blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:37
+first_name	../ch02/blog/models.py	/^    first_name = models.CharField(max_length=30)$/;"	kind:variable	line:19
+get_wsgi_application	../ch02/ch02/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+hello	../ch02/blog/views.py	/^def hello(request):$/;"	kind:function	line:16
+home_page	../ch02/blog/views.py	/^def home_page(request):$/;"	kind:function	line:11
+hours_ahead	../ch02/blog/views.py	/^def hours_ahead(request, offset):$/;"	kind:function	line:31
+initial	../ch02/blog/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:11
+last_name	../ch02/blog/models.py	/^    last_name = models.CharField(max_length=40)$/;"	kind:variable	line:20
+manage.py	../ch02/manage.py	1;"	kind:file	line:1
+migrations	../ch02/blog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+model_name	../ch02/blog/migrations/0001_initial.py	/^            model_name='book',$/;"	kind:variable	line:48
+models	../ch02/blog/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:5
+models	../ch02/blog/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	kind:namespace	line:6
+models	../ch02/blog/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models	../lesson01/models.py	/^from django.db import models$/;"	kind:namespace	line:4
+models.py	../ch02/blog/models.py	1;"	kind:file	line:1
+models.py	../lesson01/models.py	1;"	kind:file	line:1
+name	../ch02/blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
+name	../ch02/blog/migrations/0001_initial.py	/^            name='Author',$/;"	kind:variable	line:18
+name	../ch02/blog/migrations/0001_initial.py	/^            name='Book',$/;"	kind:variable	line:27
+name	../ch02/blog/migrations/0001_initial.py	/^            name='Publisher',$/;"	kind:variable	line:36
+name	../ch02/blog/migrations/0001_initial.py	/^            name='publisher',$/;"	kind:variable	line:49
+name	../ch02/blog/models.py	/^    name = models.CharField(max_length=50)$/;"	kind:variable	line:7
+name	../lesson01/models.py	/^    name = models.CharField(max_length=50)$/;"	kind:variable	line:8
+operations	../ch02/blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:16
+os	../ch02/ch02/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../ch02/ch02/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../ch02/manage.py	/^import os$/;"	kind:namespace	line:2
+platform	../chapter01.py	/^import platform$/;"	kind:namespace	line:8
+pub_date	../lesson01/models.py	/^    pub_date = models.DateField()$/;"	kind:variable	line:9
+publication_date	../ch02/blog/models.py	/^    publication_date = models.DateField()$/;"	kind:variable	line:31
+publisher	../ch02/blog/models.py	/^    publisher = models.ForeignKey(Publisher)$/;"	kind:variable	line:30
+pymysql	../ch02/ch02/__init__.py	/^import pymysql$/;"	kind:namespace	line:1
+pymysql	../chapter01.py	/^import pymysql$/;"	kind:namespace	line:9
+render	../ch02/blog/views.py	/^from django.shortcuts import render, render_to_response$/;"	kind:namespace	line:1
+render_to_response	../ch02/blog/views.py	/^from django.shortcuts import render, render_to_response$/;"	kind:namespace	line:1
+settings.py	../ch02/ch02/settings.py	1;"	kind:file	line:1
+state_province	../ch02/blog/models.py	/^    state_province = models.CharField(max_length=30)$/;"	kind:variable	line:10
+sys	../ch02/manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../ch02/blog/tests.py	1;"	kind:file	line:1
+title	../ch02/blog/models.py	/^    title = models.CharField(max_length=100)$/;"	kind:variable	line:28
+unicode_literals	../ch02/blog/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:3
+url	../ch02/ch02/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	../ch02/ch02/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	../ch02/ch02/urls.py	1;"	kind:file	line:1
+urls.py	../lesson01/urls.py	1;"	kind:file	line:1
+views	../ch02/ch02/urls.py	/^from blog import views$/;"	kind:namespace	line:18
+views.py	../ch02/blog/views.py	1;"	kind:file	line:1
+views.py	../lesson01/views.py	1;"	kind:file	line:1
+website	../ch02/blog/models.py	/^    website = models.URLField()$/;"	kind:variable	line:12
+wsgi.py	../ch02/ch02/wsgi.py	1;"	kind:file	line:1

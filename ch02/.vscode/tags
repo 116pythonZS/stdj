@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../ch02/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../ch02/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AppConfig	../blog/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../ch02/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+BlogConfig	../blog/apps.py	/^class BlogConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	../ch02/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../ch02/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HttpResponse	../blog/views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:3
+INSTALLED_APPS	../ch02/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../ch02/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../ch02/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+ROOT_URLCONF	../ch02/settings.py	/^ROOT_URLCONF = 'ch02.urls'$/;"	kind:variable	line:53
+STATIC_URL	../ch02/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../ch02/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../ch02/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TestCase	../blog/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../ch02/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../ch02/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../ch02/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../ch02/settings.py	/^WSGI_APPLICATION = 'ch02.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../ch02/__init__.py	1;"	kind:file	line:1
+admin	../blog/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../ch02/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin.py	../blog/admin.py	1;"	kind:file	line:1
+application	../ch02/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../blog/apps.py	1;"	kind:file	line:1
+current_time	../blog/views.py	/^def current_time(request):$/;"	kind:function	line:12
+datetime	../blog/views.py	/^import datetime$/;"	kind:namespace	line:5
+django	../manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	../ch02/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+hello	../blog/views.py	/^def hello(request):$/;"	kind:function	line:9
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../blog/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../blog/models.py	1;"	kind:file	line:1
+name	../blog/apps.py	/^    name = 'blog'$/;"	kind:variable	line:5
+os	../ch02/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../ch02/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+render	../blog/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	../ch02/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../blog/tests.py	1;"	kind:file	line:1
+url	../ch02/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
+urlpatterns	../ch02/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	../ch02/urls.py	1;"	kind:file	line:1
+views.py	../blog/views.py	1;"	kind:file	line:1
+wsgi.py	../ch02/wsgi.py	1;"	kind:file	line:1
