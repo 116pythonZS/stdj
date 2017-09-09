@@ -6,9 +6,9 @@ doc string
 
 
 import platform
+print(platform.python_version())
 import pymysql
 
-print(platform.python_version())
 
 
 print("Content-Type:text/html")

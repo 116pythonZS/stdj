@@ -12,23 +12,36 @@ class Publisher(models.Model):
     website = models.URLField()
 
     def __unicode__(self):
-        return self.name;
+        return self.name
+    
+    def __str__(self):
+        return self.__unicode__()
 
 
 class Author(models.Model):
-    first_name = models.CharField(max_length=30)
-    last_name = models.CharField(max_length=40)
-    email = models.EmailField()
+    first_name = models.CharField(max_length=30, verbose_name = "姓氏")
+    last_name = models.CharField(max_length=40, verbose_name = "名字")
+    email = models.EmailField(blank = True, verbose_name = "邮箱")
 
     def __unicode__(self):
         return u'%s %s' % (self.first_name, self.last_name)
+    
+    def __str__(self):
+        return self.__unicode__()
 
 
 class Book(models.Model):
     title = models.CharField(max_length=100)
     authors = models.ManyToManyField(Author)
     publisher = models.ForeignKey(Publisher)
-    publication_date = models.DateField()
+    publication_date = models.DateField(blank = True, null = True)
 
     def __unicode__(self):
         return self.title
+    
+    def __str__(self):
+        return self.__unicode__()
+    
+
+class User(models.Model):
+    pass

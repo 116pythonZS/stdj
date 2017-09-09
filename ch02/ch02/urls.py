@@ -24,4 +24,9 @@ urlpatterns = [
     url(r'^currentTime$', views.current_time),
     url(r'^time/plus/(\d{1,2})$', views.hours_ahead),
     url(r'^custom$', views.customtemplate),
+    url(r'^info$', views.display_meta),
+    url(r"^search-form$", views.search_form),
+    url(r"^search$", views.search),
+    url(r'^contact-form$', views.contact),
+    url(r'^contact2$', views.contact2),
 ]

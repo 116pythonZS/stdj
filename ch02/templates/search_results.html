@@ -1,0 +1,11 @@
+<p>你的查询: <strong>{{query}}</strong></p>
+{% if books %}
+<p>找到{{ books | length }} book {{books|pluralize}}.</p>
+<ul>
+    {% for book in books %}
+    <li>{{book.title}}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No books matched your search criteria.</p>
+{% endif %}
